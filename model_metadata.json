@@ -1,0 +1,78 @@
+{
+  "model_name": "LightGBM_mid",
+  "version": "v2-lite",
+  "features": [
+    "N",
+    "P",
+    "K",
+    "pH",
+    "moisture",
+    "temperature",
+    "humidity"
+  ],
+  "target": "yield_kg_per_ha",
+  "test_r2": 0.9115,
+  "test_mae": 662.93,
+  "test_rmse": 917.9,
+  "model_size_mb": 0.28,
+  "feature_ranges": {
+    "N": [
+      0,
+      320
+    ],
+    "P": [
+      0,
+      140
+    ],
+    "K": [
+      0,
+      320
+    ],
+    "pH": [
+      3.5,
+      9.0
+    ],
+    "moisture": [
+      10,
+      100
+    ],
+    "temperature": [
+      8,
+      45
+    ],
+    "humidity": [
+      20,
+      100
+    ]
+  },
+  "optimal_ranges": {
+    "N": [
+      190,
+      280
+    ],
+    "P": [
+      25,
+      50
+    ],
+    "K": [
+      180,
+      280
+    ],
+    "pH": [
+      6.0,
+      6.5
+    ],
+    "moisture": [
+      60,
+      80
+    ],
+    "temperature": [
+      25,
+      30
+    ],
+    "humidity": [
+      55,
+      75
+    ]
+  }
+}
